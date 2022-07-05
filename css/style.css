@@ -1,0 +1,52 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    text-align:center;
+    margin: 50px;
+}
+#intro .jumbotron{
+    height:70vh;
+    display: flex;
+    align-items: center;
+}
+#intro h1{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+#intro .btn{
+    border-radius: 1.25rem;
+}
+header nav img{
+    width: 30vh;
+}
+header .nav-link{
+    margin: 5px;
+}
+#second h3{
+    font-size: 22px;
+    text-align:left;
+}
+#second p{
+    text-align:left;
+}
+#second img{
+    height:10vh;
+} 
+section{
+    padding-bottom: 120px;
+}
+#last .card-text{
+    font-size: 20px;
+    color:#000000;
+    font-weight: 500;
+    line-height: 2;
+}
+#last p{
+    font-size: 16px;
+    color:#7B7B7B;
+}
