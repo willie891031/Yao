@@ -9,7 +9,8 @@ h2{
     margin: 50px;
 }
 #intro .jumbotron{
-    height:70vh;
+    height:87vh;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -17,6 +18,7 @@ h2{
     font-size: 36px;
     font-weight: 500;
     line-height: 1.5;
+    color: #ffffff;
 }
 #intro .btn{
     border-radius: 1.25rem;
@@ -37,16 +39,28 @@ header .nav-link{
 #second img{
     height:10vh;
 } 
-section{
-    padding-bottom: 120px;
+#intro{
+    padding-bottom: 80px;
+}
+#second{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+#last{
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 #last .card-text{
     font-size: 20px;
     color:#000000;
     font-weight: 500;
     line-height: 2;
+    justify-content:center;
 }
 #last p{
     font-size: 16px;
     color:#7B7B7B;
+}
+#last a{
+    text-decoration: none;
 }
